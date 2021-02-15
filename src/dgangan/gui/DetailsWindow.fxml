@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="514.0" prefWidth="409.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+      <TableView fx:id="devicesIntStatus" layoutX="4.0" layoutY="3.0" prefHeight="508.0" prefWidth="401.0">
+        <columns>
+            <TableColumn fx:id="portName" prefWidth="75.0" sortable="false" text="Interface" />
+            <TableColumn fx:id="portDescription" prefWidth="142.0" sortable="false" text="Description" />
+            <TableColumn fx:id="portStatus" editable="false" prefWidth="72.0" text="Status" />
+            <TableColumn fx:id="portDuplex" editable="false" prefWidth="51.0" text="Duplex" />
+            <TableColumn fx:id="portSpeed" editable="false" prefWidth="45.0" text="Speed" />
+        </columns>
+      </TableView>
+</AnchorPane>
