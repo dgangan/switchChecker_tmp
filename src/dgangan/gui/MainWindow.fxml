@@ -18,11 +18,11 @@
                     </columns>
                   </TableView>
                   <Separator layoutX="242.0" layoutY="47.0" orientation="VERTICAL" prefHeight="291.0" prefWidth="5.0" />
-                  <Button fx:id="addIpButton" layoutX="255.0" layoutY="103.0" mnemonicParsing="false" onAction="#addIpToList" prefHeight="25.0" prefWidth="56.0" text="Add" />
+                  <Button fx:id="addIpButton" defaultButton="true" layoutX="255.0" layoutY="103.0" mnemonicParsing="false" onAction="#addIpToList" prefHeight="25.0" prefWidth="56.0" text="Add" />
                   <TextField fx:id="insertIpField" layoutX="255.0" layoutY="71.0" prefHeight="25.0" prefWidth="126.0" />
                   <Button fx:id="deleteSelectedButton" layoutX="14.0" layoutY="320.0" mnemonicParsing="false" onAction="#deleteSelectedIps" text="Delete Selected" />
                   <Label layoutX="255.0" layoutY="54.0" text="IP Address" />
-                  <Button fx:id="checkButton" defaultButton="true" layoutX="250.0" layoutY="305.0" mnemonicParsing="false" onAction="#checkDevices" prefHeight="25.0" prefWidth="115.0" text="Check" textAlignment="CENTER">
+                  <Button fx:id="checkButton" layoutX="250.0" layoutY="305.0" mnemonicParsing="false" onAction="#checkDevices" prefHeight="25.0" prefWidth="115.0" text="Check" textAlignment="CENTER">
                      <font>
                         <Font size="14.0" />
                      </font>
