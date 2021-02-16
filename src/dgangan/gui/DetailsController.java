@@ -14,6 +14,8 @@ import java.util.ResourceBundle;
 
 public class DetailsController implements Initializable {
 
+    private ObservableList<PortEntry> portInfo = FXCollections.observableArrayList();
+
     DeviceModel device;
 
     @FXML
@@ -63,6 +65,4 @@ public class DetailsController implements Initializable {
         portDescription.setCellValueFactory(new PropertyValueFactory<>("Description"));
         devicesIntStatus.setItems(portInfo);
     }
-    private ObservableList<PortEntry> portInfo = FXCollections.observableArrayList();
-
 }
