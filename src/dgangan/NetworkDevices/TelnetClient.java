@@ -12,7 +12,7 @@ public class TelnetClient {
     public TelnetClient(String server, String user, String password, String prompt) {
         this.prompt = prompt;
         try {
-            telnet.setConnectTimeout(3000);
+            telnet.setConnectTimeout(5000);
             telnet.connect(server, 23);
             in = telnet.getInputStream();
             out = new PrintStream(telnet.getOutputStream());
