@@ -3,4 +3,7 @@ Utility to get switch port status and check on any interfaces that are in half-d
 
 To launch run .bat file inside SwitchChecker01b.zip  
 
+**Java8 is required**  
+
+
 ![Screenshot](example_view.jpg)
